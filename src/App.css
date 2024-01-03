@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    background: linear-gradient(to right bottom, rgb(55, 65, 81), rgb(17, 24, 39), rgb(25, 25, 25));
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #334155;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(7, 89, 133, 0.6);
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(3, 105, 161, 0.6);
+}
+
+
