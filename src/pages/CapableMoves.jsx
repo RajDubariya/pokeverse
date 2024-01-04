@@ -17,8 +17,8 @@ const CapableMoves = () => {
   }, []);
 
   return (
-    <div className=" w-full">
-      <div className=" flex items-center justify-center p-3 uppercase text-white text-xl md:text-2xl">
+    <div className="w-full">
+      <div className="flex items-center justify-center p-3 uppercase text-white text-xl md:text-2xl">
         <p
           style={{
             borderBottom: `2px solid #${color}`,
@@ -28,7 +28,7 @@ const CapableMoves = () => {
           capable moves of {pokemonName}
         </p>
       </div>
-      <div className=" grid grid-cols-2 md:grid-cols-5 gap-4 p-2 ">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 p-2 ">
         {pokemonData &&
           pokemonData.moves?.map((move, index) => (
             <motion.div
