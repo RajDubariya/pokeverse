@@ -32,8 +32,8 @@ const CapableMoves = () => {
         {pokemonData &&
           pokemonData.moves?.map((move, index) => (
             <motion.div
-              initial={{ z: 50, scale: 0.8 }}
-              animate={{ z: 0, scale: 1 }}
+              initial={{ opacity: 0.5, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
               style={{
                 backgroundColor: `#${color}20`,
